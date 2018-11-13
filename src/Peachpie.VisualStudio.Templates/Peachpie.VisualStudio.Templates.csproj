@@ -50,25 +50,31 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Project\Console\PeachPie.Console.App.msbuildproj" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Project\Console\main.php" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Project\Console\PeachPie.Console.App.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <VSTemplate Include="Project\Console\PeachPie.Console.App.vstemplate">
+    <VSTemplate Include="Projects\Console\PeachPie.Console.App.vstemplate">
       <SubType>Designer</SubType>
     </VSTemplate>
+    <None Include="Projects\Console\PeachPie.Console.App.msbuildproj" />
+    <None Include="Projects\Console\PeachPie.Console.App.ico" />
+    <None Include="Projects\Console\program.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <VSTemplate Include="Projects\ClassLibrary\PeachPie.ClassLibrary.vstemplate">
+      <SubType>Designer</SubType>
+    </VSTemplate>
+    <None Include="Projects\ClassLibrary\PeachPie.ClassLibrary.msbuildproj" />
+    <None Include="Projects\ClassLibrary\PeachPie.ClassLibrary.ico" />
+    <None Include="Projects\ClassLibrary\class1.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <VSTemplate Include="Items\ScriptFile\ScriptFile.vstemplate">
+      <SubType>Designer</SubType>
+    </VSTemplate>
+    <None Include="Items\ScriptFile\ScriptFile.php" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets" Condition="'$(VSToolsPath)' != ''" />

@@ -7,6 +7,7 @@
     <ProjectType>PeachPie</ProjectType>
     <TemplateID>PeachPie.ClassLibrary</TemplateID>
     <CreateNewFolder>true</CreateNewFolder>
+    <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
     <DefaultName>ClassLibrary</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
   </TemplateData>
