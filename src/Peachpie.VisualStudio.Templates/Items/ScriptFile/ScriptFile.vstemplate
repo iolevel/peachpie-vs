@@ -3,7 +3,7 @@
   <TemplateData>
     <Name>Script file</Name>
     <Description>An empty script file.</Description>
-    <TemplateID>PeachPie.Item.ScriptFile</TemplateID>
+    <TemplateID>PeachPie.Template.ScriptFile</TemplateID>
     <ProjectType>PeachPie</ProjectType>
     <AppliesTo>PHP;PeachPie;Web</AppliesTo>
     <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>

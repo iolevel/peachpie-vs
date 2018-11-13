@@ -5,7 +5,7 @@
     <Description>Class library project using PHP language. Targets .NET Standard.</Description>
     <Icon>PeachPie.ClassLibrary.ico</Icon>
     <ProjectType>PeachPie</ProjectType>
-    <TemplateID>PeachPie.ClassLibrary</TemplateID>
+    <TemplateID>PeachPie.Template.ClassLibrary</TemplateID>
     <CreateNewFolder>true</CreateNewFolder>
     <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
     <DefaultName>ClassLibrary</DefaultName>

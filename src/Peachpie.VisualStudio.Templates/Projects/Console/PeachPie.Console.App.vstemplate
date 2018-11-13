@@ -5,7 +5,7 @@
     <Description>Console App using PHP language. Targets .NET Core.</Description>
     <Icon>PeachPie.Console.App.ico</Icon>
     <ProjectType>PeachPie</ProjectType>
-    <TemplateID>PeachPie.Console.App</TemplateID>
+    <TemplateID>PeachPie.Template.ConsoleApp</TemplateID>
     <CreateNewFolder>true</CreateNewFolder>
     <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
     <DefaultName>ConsoleApp</DefaultName>
