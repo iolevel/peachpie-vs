@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>PeachPie Console App (.NET Core) </Name>
+    <Name>PeachPie Console App (.NET Core)</Name>
     <Description>Console App using PHP language. Targets .NET Core.</Description>
     <Icon>PeachPie.Console.App.ico</Icon>
     <ProjectType>PeachPie</ProjectType>
     <TemplateID>PeachPie.Console.App</TemplateID>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>PeachPie.Console.App</DefaultName>
+    <DefaultName>ConsoleApp</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
   </TemplateData>
   <TemplateContent>
-    <Project File="PeachPie.Console.App.msbuildproj" ReplaceParameters="true">
-      <ProjectItem ReplaceParameters="true" OpenInEditor="true">main.php</ProjectItem>
+    <Project File="PeachPie.Console.App.msbuildproj" TargetFileName="$safeprojectname$.msbuildproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">program.php</ProjectItem>
     </Project>
   </TemplateContent>
 </VSTemplate>

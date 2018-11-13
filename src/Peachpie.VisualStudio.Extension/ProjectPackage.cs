@@ -14,8 +14,13 @@ using Microsoft.VisualStudio.Shell.Interop;
 using Microsoft.Win32;
 using Task = System.Threading.Tasks.Task;
 
-[assembly: ProjectTypeRegistration(Peachpie.VisualStudio.Extension.ProjectPackage.ProjectGuidString,
-    "PHP (PeachPie)", "msbuild project;*.msbuildproj", "msbuildproj", "PeachPie")]
+[assembly: ProjectTypeRegistration(Peachpie.VisualStudio.Extension.ProjectPackage.DummyProjectGuidString,
+    "PHP (PeachPie)", "Common Project System (*.msbuildproj);*.msbuildproj", "msbuildproj", "PeachPie",
+    LanguageVsTemplate = "PeachPie",
+    Capabilities = "Managed;PHP;PeachPie;AppDesigner;OpenProjectFile;GenerateDocumentationFile",
+    DisplayProjectTypeVsTemplate = "PHP (PeachPie)",
+    PossibleProjectExtensions = "msbuildproj;phpproj;peachpieproj"
+    )]
 
 namespace Peachpie.VisualStudio.Extension
 {
@@ -30,7 +35,9 @@ namespace Peachpie.VisualStudio.Extension
         /// </summary>
         public const string PackageGuidString = "f9b17eaf-7e54-458e-9a84-cc3f151a459d";
 
-        public const string ProjectGuidString = "fab17eaf-7e54-458e-9a84-cc3f151a459e";
+        public const string DummyProjectGuidString = "fab17eaf-7e54-458e-9a84-cc3f151a459e";
+
+        public const string CpsProjectGuidString = "13B669BE-BB05-4DDF-9536-439F39A36129";
 
         /// <summary>
         /// Initializes a new instance of the <see cref="ProjectPackage"/> class.

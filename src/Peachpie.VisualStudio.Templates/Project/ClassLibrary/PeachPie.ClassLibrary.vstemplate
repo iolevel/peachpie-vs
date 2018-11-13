@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>PeachPie Class Libray (.NET Standard)</Name>
+    <Description>Class library project using PHP language. Targets .NET Standard.</Description>
+    <Icon>PeachPie.ClassLibrary.ico</Icon>
+    <ProjectType>PeachPie</ProjectType>
+    <TemplateID>PeachPie.ClassLibrary</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>ClassLibrary</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="PeachPie.ClassLibrary.msbuildproj" TargetFileName="$safeprojectname$.msbuildproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">class1.php</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

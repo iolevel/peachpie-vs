@@ -1,8 +1,7 @@
 <Project Sdk="Peachpie.NET.Sdk/0.9.12">
   <PropertyGroup>
-    <OutputType>exe</OutputType>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
-    <StartupObject>program.php</StartupObject>
+    <OutputType>library</OutputType>
+    <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
