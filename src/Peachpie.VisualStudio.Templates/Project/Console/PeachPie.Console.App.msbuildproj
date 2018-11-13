@@ -1,0 +1,12 @@
+<Project Sdk="Peachpie.NET.Sdk/0.9.12">
+  <PropertyGroup>
+    <OutputType>exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <StartupObject>main.php</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="**/*.php" />
+  </ItemGroup>
+
+</Project>
