@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Peachpie.VisualStudio.Extension", "src\Peachpie.VisualStudio.Extension\Peachpie.VisualStudio.Extension.csproj", "{5EA289FE-FE3A-4393-8D0A-8CE4A0347A9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Peachpie.VisualStudio.Templates", "src\Peachpie.VisualStudio.Templates\Peachpie.VisualStudio.Templates.csproj", "{52B524E0-64F1-4295-A2AF-2DD60E30D7A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Peachpie.VisualStudio.ItemTemplates", "src\Peachpie.VisualStudio.ItemTemplates\Peachpie.VisualStudio.ItemTemplates.csproj", "{52B524E0-64F1-4295-A2AF-2DD60E30D7A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Peachpie.VisualStudio.ProjectTemplates", "src\Peachpie.VisualStudio.ProjectTemplates\Peachpie.VisualStudio.ProjectTemplates.csproj", "{53B524E0-64F1-4295-A2AF-2DD60E30D7A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{52B524E0-64F1-4295-A2AF-2DD60E30D7A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52B524E0-64F1-4295-A2AF-2DD60E30D7A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52B524E0-64F1-4295-A2AF-2DD60E30D7A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53B524E0-64F1-4295-A2AF-2DD60E30D7A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53B524E0-64F1-4295-A2AF-2DD60E30D7A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53B524E0-64F1-4295-A2AF-2DD60E30D7A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53B524E0-64F1-4295-A2AF-2DD60E30D7A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,17 +3,18 @@
   <TemplateData>
     <Name>PeachPie Console App (.NET Core)</Name>
     <Description>Console App using PHP language. Targets .NET Core.</Description>
-    <Icon>PeachPie.Console.App.ico</Icon>
+    <Icon>Console.ico</Icon>
     <ProjectType>PeachPie</ProjectType>
     <TemplateID>PeachPie.Template.ConsoleApp</TemplateID>
     <CreateNewFolder>true</CreateNewFolder>
     <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
     <DefaultName>ConsoleApp</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
+    <CreateInPlace>true</CreateInPlace>
   </TemplateData>
   <TemplateContent>
-    <Project File="PeachPie.Console.App.msbuildproj" TargetFileName="$safeprojectname$.msbuildproj" ReplaceParameters="true">
-      <ProjectItem ReplaceParameters="true" OpenInEditor="true">program.php</ProjectItem>
+    <Project File="Console.msbuildproj" TargetFileName="$safeprojectname$.msbuildproj" ReplaceParameters="true">
+      <ProjectItem>program.php</ProjectItem>
     </Project>
   </TemplateContent>
 </VSTemplate>

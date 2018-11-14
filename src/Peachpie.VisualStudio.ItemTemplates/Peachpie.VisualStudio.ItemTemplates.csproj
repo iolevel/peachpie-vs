@@ -12,8 +12,8 @@
     <ProjectGuid>{52B524E0-64F1-4295-A2AF-2DD60E30D7A0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Peachpie.VisualStudio.Templates</RootNamespace>
-    <AssemblyName>Peachpie.VisualStudio.Templates</AssemblyName>
+    <RootNamespace>Peachpie.VisualStudio.ItemTemplates</RootNamespace>
+    <AssemblyName>Peachpie.VisualStudio.ItemTemplates</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
@@ -32,7 +32,6 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
@@ -40,7 +39,6 @@
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
@@ -55,26 +53,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <VSTemplate Include="Projects\Console\PeachPie.Console.App.vstemplate">
+    <VSTemplate Include="ScriptFile\ScriptFile.vstemplate">
       <SubType>Designer</SubType>
     </VSTemplate>
-    <None Include="Projects\Console\PeachPie.Console.App.msbuildproj" />
-    <None Include="Projects\Console\PeachPie.Console.App.ico" />
-    <None Include="Projects\Console\program.php" />
-  </ItemGroup>
-  <ItemGroup>
-    <VSTemplate Include="Projects\ClassLibrary\PeachPie.ClassLibrary.vstemplate">
-      <SubType>Designer</SubType>
-    </VSTemplate>
-    <None Include="Projects\ClassLibrary\PeachPie.ClassLibrary.msbuildproj" />
-    <None Include="Projects\ClassLibrary\PeachPie.ClassLibrary.ico" />
-    <None Include="Projects\ClassLibrary\class1.php" />
-  </ItemGroup>
-  <ItemGroup>
-    <VSTemplate Include="Items\ScriptFile\ScriptFile.vstemplate">
-      <SubType>Designer</SubType>
-    </VSTemplate>
-    <None Include="Items\ScriptFile\ScriptFile.php" />
+    <None Include="ScriptFile\script.php" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets" Condition="'$(VSToolsPath)' != ''" />

@@ -15,11 +15,12 @@ using Microsoft.Win32;
 using Task = System.Threading.Tasks.Task;
 
 [assembly: ProjectTypeRegistration(Peachpie.VisualStudio.Extension.ProjectPackage.DummyProjectGuidString,
-    "PHP (PeachPie)", "Common Project System (*.msbuildproj);*.msbuildproj", "msbuildproj", "PeachPie",
-    LanguageVsTemplate = "PeachPie",
-    Capabilities = "Managed;PHP;PeachPie;AppDesigner;OpenProjectFile;GenerateDocumentationFile",
-    DisplayProjectTypeVsTemplate = "PHP (PeachPie)",
-    PossibleProjectExtensions = "msbuildproj;phpproj;peachpieproj"
+    "PHP (PeachPie)", "Common Project System (*.msbuildproj);*.msbuildproj", "msbuildproj"
+    , language: "PeachPie"
+    , Capabilities = "Managed;PHP;PeachPie;AppDesigner;OpenProjectFile;GenerateDocumentationFile"
+    , LanguageVsTemplate = "PeachPie"
+    , DisplayProjectTypeVsTemplate = "PHP (PeachPie)"
+    //, PossibleProjectExtensions = "msbuildproj;phpproj;peachpieproj"
     )]
 
 namespace Peachpie.VisualStudio.Extension

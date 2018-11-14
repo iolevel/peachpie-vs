@@ -1,0 +1,15 @@
+﻿<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <Name>Empty Script</Name>
+    <Description>An empty script file.</Description>
+    <ProjectType>PeachPie</ProjectType>
+    <!--AppliesTo>PeachPie|PHP|Managed|Web</AppliesTo-->
+    <SortOrder>10</SortOrder>
+    <CreateInPlace>true</CreateInPlace>
+    <DefaultName>script.php</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="" TargetFileName="$fileinputname$.php" ReplaceParameters="true">script.php</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

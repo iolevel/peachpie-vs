@@ -3,16 +3,17 @@
   <TemplateData>
     <Name>PeachPie Class Libray (.NET Standard)</Name>
     <Description>Class library project using PHP language. Targets .NET Standard.</Description>
-    <Icon>PeachPie.ClassLibrary.ico</Icon>
+    <Icon>ClassLibrary.ico</Icon>
     <ProjectType>PeachPie</ProjectType>
     <TemplateID>PeachPie.Template.ClassLibrary</TemplateID>
     <CreateNewFolder>true</CreateNewFolder>
     <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
     <DefaultName>ClassLibrary</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
+    <CreateInPlace>true</CreateInPlace>
   </TemplateData>
   <TemplateContent>
-    <Project File="PeachPie.ClassLibrary.msbuildproj" TargetFileName="$safeprojectname$.msbuildproj" ReplaceParameters="true">
+    <Project File="ClassLibrary.msbuildproj" TargetFileName="$safeprojectname$.msbuildproj" ReplaceParameters="true">
       <ProjectItem ReplaceParameters="true" OpenInEditor="true">class1.php</ProjectItem>
     </Project>
   </TemplateContent>
