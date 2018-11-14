@@ -11,6 +11,6 @@
   </TemplateData>
   <TemplateContent>
     <References />
-    <ProjectItem SubType="" TargetFileName="$fileinputname$.php" ReplaceParameters="true">script.php</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$.php" ReplaceParameters="true" ItemType="Compile">script.php</ProjectItem>
   </TemplateContent>
 </VSTemplate>

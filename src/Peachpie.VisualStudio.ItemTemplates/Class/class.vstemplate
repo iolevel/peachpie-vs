@@ -11,6 +11,6 @@
   </TemplateData>
   <TemplateContent>
     <References />
-    <ProjectItem ReplaceParameters="true">class.php</ProjectItem>
+    <ProjectItem ReplaceParameters="true" ItemType="Compile">class.php</ProjectItem>
   </TemplateContent>
 </VSTemplate>
