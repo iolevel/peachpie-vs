@@ -1,0 +1,16 @@
+﻿<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <TemplateID>Peachpie.ItemTemplates.TextFile</TemplateID>
+    <Name>Text File</Name>
+    <Description>An empty text file.</Description>
+    <ProjectType>Web</ProjectType>
+    <AppliesTo>PHP|Managed|Web</AppliesTo>
+    <SortOrder>10</SortOrder>
+    <CreateInPlace>true</CreateInPlace>
+    <DefaultName>TextFile.txt</DefaultName>
+    <AppendDefaultFileExtension>false</AppendDefaultFileExtension>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true" ItemType="Content">textfile.txt</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
