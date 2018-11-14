@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
+    <TemplateID>PeachPie.ProjectTemplates.ConsoleApp</TemplateID>
     <Name>PeachPie Console App (.NET Core)</Name>
     <Description>Console App using PHP language. Targets .NET Core.</Description>
     <Icon>Console.ico</Icon>
     <ProjectType>PeachPie</ProjectType>
-    <TemplateID>PeachPie.Template.ConsoleApp</TemplateID>
     <CreateNewFolder>true</CreateNewFolder>
     <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
     <DefaultName>ConsoleApp</DefaultName>
