@@ -3,8 +3,8 @@
     <TemplateID>Peachpie.ItemTemplates.TextFile</TemplateID>
     <Name>Text File</Name>
     <Description>An empty text file.</Description>
-    <ProjectType>Web</ProjectType>
-    <AppliesTo>PHP|Managed|Web</AppliesTo>
+    <ProjectType>PeachPie</ProjectType>
+    <AppliesTo>PHP|Web</AppliesTo>
     <SortOrder>10</SortOrder>
     <CreateInPlace>true</CreateInPlace>
     <DefaultName>TextFile.txt</DefaultName>

@@ -4,7 +4,7 @@
     <Name>New Class</Name>
     <Description>A class stub.</Description>
     <ProjectType>PeachPie</ProjectType>
-    <AppliesTo>PHP|Managed|Web</AppliesTo>
+    <AppliesTo>PHP|Web</AppliesTo>
     <SortOrder>10</SortOrder>
     <CreateInPlace>true</CreateInPlace>
     <DefaultName>class.php</DefaultName>

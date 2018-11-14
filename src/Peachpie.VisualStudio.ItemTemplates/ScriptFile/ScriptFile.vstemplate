@@ -4,7 +4,7 @@
     <Name>Empty Script</Name>
     <Description>An empty script file.</Description>
     <ProjectType>PeachPie</ProjectType>
-    <AppliesTo>PHP|Managed|Web</AppliesTo>
+    <AppliesTo>PHP|Web</AppliesTo>
     <SortOrder>10</SortOrder>
     <CreateInPlace>true</CreateInPlace>
     <DefaultName>script.php</DefaultName>
