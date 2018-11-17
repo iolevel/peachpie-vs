@@ -2,6 +2,8 @@
 
 This extension adds support for PHP projects running compiled on .NET/.NET Core using [PeachPie compiler](https://www.peachpie.io). The extension is designed to simplify working with PeachPie compiler in the Microsoft's Visual Studio IDE.
 
+>Note: this extension is a Preview, as PeachPie is still a work in progress.
+
 ## Project Templates
 
 Easily create a new **PHP (PeachPie)** project with just a few clicks and get started with PeachPie:
