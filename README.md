@@ -10,9 +10,13 @@ Easily create a new **PHP (PeachPie)** project with just a few clicks and get st
 
 ## Full .NET Dependencies
 
+Integrate your PHP (PeachPie) app as a reference within your other .NET projects:
+
 ![Dependencies](https://github.com/iolevel/peachpie-vs/blob/master/imgs/project-system.gif?raw=true "NuGet Packages, Project References")
 
 ## Make use of Diagnostic Tools
+
+Profile your PHP code for performance bottlenecks, memory leaks or CPU usage:
 
 ![Diagnostic Tools](https://github.com/iolevel/peachpie-vs/blob/master/imgs/diagnostic-tools.gif?raw=true "Diagnostic Tools")
 
@@ -20,10 +24,10 @@ Easily create a new **PHP (PeachPie)** project with just a few clicks and get st
 
 PeachPie compiles PHP code to .NET/.NET Core and replaces its runtime with the modern, secure and performant .NET environment. As a result, you can use this extension to treat PHP projects as if they were written in .NET and interoperate seamlessly with your applications written, for example, in C#:
 
-* __Compiling PHP__: compile PHP code into standard .NET assembly file
-* __Manage dependencies__: reference NuGet packages, other .NET projects or provide your PHP library as a package itself
-* __Interoperate between PHP and .NET__: seamlessly connect PHP and .NET code within a single solution
-* __Sourceless distribution__: distribute compiled PHP applications without their source code
+* __Compile PHP__: compile PHP code into a standard .NET assembly file
+* __Manage Dependencies__: reference NuGet packages, other .NET projects or provide your PHP library as a package itself
+* __Interoperate Between PHP and .NET__: seamlessly connect PHP and .NET code within a single solution
+* __Sourceless Distribution__: distribute compiled PHP applications without their source code
 * __Build and Debug__: treat PHP code with .NET's tools and the .NET debugger
 * __Profiling and Diagnostics__: take advantage of running PHP compiled to .NET with Visual Studio's powerful performance and memory profiling tools
 
