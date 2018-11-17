@@ -4,7 +4,7 @@
     <TemplateID>PeachPie.ProjectTemplates.ClassLibrary</TemplateID>
     <Name>PeachPie Class Libray (.NET Standard)</Name>
     <Description>Class library project using PHP language. Targets .NET Standard.</Description>
-    <Icon>ClassLibrary.ico</Icon>
+    <Icon Package="{f9b17eaf-7e54-458e-9a84-cc3f151a459d}" ID="400" />
     <ProjectType>PeachPie</ProjectType>
     <CreateNewFolder>true</CreateNewFolder>
     <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>

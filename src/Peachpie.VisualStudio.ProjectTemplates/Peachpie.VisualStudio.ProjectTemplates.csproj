@@ -57,7 +57,6 @@
       <SubType>Designer</SubType>
     </VSTemplate>
     <None Include="Console\Console.msbuildproj" />
-    <None Include="Console\Console.ico" />
     <None Include="Console\program.php" />
   </ItemGroup>
   <ItemGroup>
@@ -65,7 +64,6 @@
       <SubType>Designer</SubType>
     </VSTemplate>
     <None Include="ClassLibrary\ClassLibrary.msbuildproj" />
-    <None Include="ClassLibrary\ClassLibrary.ico" />
     <None Include="ClassLibrary\class1.php" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
