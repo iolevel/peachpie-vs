@@ -1,4 +1,5 @@
-<Project Sdk="Peachpie.NET.Sdk/0.9.14">
+<Project Sdk="Peachpie.NET.Sdk/0.9.15">
+  
   <PropertyGroup>
     <OutputType>library</OutputType>
     <TargetFramework>netstandard2.0</TargetFramework>

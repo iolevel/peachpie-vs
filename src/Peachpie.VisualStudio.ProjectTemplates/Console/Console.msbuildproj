@@ -1,4 +1,5 @@
-<Project Sdk="Peachpie.NET.Sdk/0.9.14">
+<Project Sdk="Peachpie.NET.Sdk/0.9.15">
+  
   <PropertyGroup>
     <OutputType>exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
