@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="**" Exclude="obj/**;bin/**;*.msbuildproj;**.php;**.phar">
+    <Content Include="**" Exclude="obj/**;bin/**;PublishProfiles/**;@(Compile);$(MsBuildThisFile)">
       <PackagePath>contentFiles/any/netcoreapp2.0/wwwroot/</PackagePath>
       <PackageCopyToOutput>true</PackageCopyToOutput>
       <CopyToOutputDirectory>true</CopyToOutputDirectory>
