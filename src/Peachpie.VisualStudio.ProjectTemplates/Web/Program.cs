@@ -33,8 +33,13 @@ namespace $ext_safeprojectname$.Server
             });
         }
 
-        public void Configure(IApplicationBuilder app)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            if (env.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+            }
+
             app.UseSession();
 
             app.UsePhp(new PhpRequestOptions(scriptAssemblyName: "$ext_safeprojectname$"));

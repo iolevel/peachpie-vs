@@ -10,4 +10,13 @@
     <Compile Include="**/*.php" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Include="**" Exclude="obj/**;bin/**;*.msbuildproj;**.php;**.phar">
+      <PackagePath>contentFiles/any/netcoreapp2.0/wwwroot/</PackagePath>
+      <PackageCopyToOutput>true</PackageCopyToOutput>
+      <CopyToOutputDirectory>true</CopyToOutputDirectory>
+      <CopyToPublishDirectory>true</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
