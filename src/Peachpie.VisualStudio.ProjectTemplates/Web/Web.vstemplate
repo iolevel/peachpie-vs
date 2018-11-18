@@ -13,8 +13,8 @@
   </TemplateData>
   <TemplateContent>
     <ProjectCollection>
-      <ProjectTemplateLink CopyParameters="true" ProjectName="$safeprojectname$">Website.vstemplate</ProjectTemplateLink>
       <ProjectTemplateLink CopyParameters="true" ProjectName="Server">Server.vstemplate</ProjectTemplateLink>
+      <ProjectTemplateLink CopyParameters="true" ProjectName="$safeprojectname$">Website.vstemplate</ProjectTemplateLink>
     </ProjectCollection>
   </TemplateContent>
 </VSTemplate>
