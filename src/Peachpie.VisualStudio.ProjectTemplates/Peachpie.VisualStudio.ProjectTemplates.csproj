@@ -53,19 +53,53 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <VSTemplate Include="Console\Console.vstemplate">
-      <SubType>Designer</SubType>
-    </VSTemplate>
+    <VSTemplate Include="Console\Console.vstemplate" />
     <None Include="Console\Console.msbuildproj" />
     <None Include="Console\program.php" />
   </ItemGroup>
   <ItemGroup>
-    <VSTemplate Include="ClassLibrary\ClassLibrary.vstemplate">
-      <SubType>Designer</SubType>
-    </VSTemplate>
+    <VSTemplate Include="ClassLibrary\ClassLibrary.vstemplate" />
     <None Include="ClassLibrary\ClassLibrary.msbuildproj" />
     <None Include="ClassLibrary\class1.php" />
+    <ZipProject Include="Web\index.php">
+      <OutputSubPath>1033</OutputSubPath>
+    </ZipProject>
+    <ZipProject Include="Web\Program.cs">
+      <OutputSubPath>1033</OutputSubPath>
+    </ZipProject>
+    <ZipProject Include="Web\Server.csproj">
+      <OutputSubPath>1033</OutputSubPath>
+    </ZipProject>
+    <ZipProject Include="Web\Server.vstemplate">
+      <OutputSubPath>1033</OutputSubPath>
+    </ZipProject>
+    <ZipProject Include="Web\Web.vstemplate">
+      <OutputSubPath>1033</OutputSubPath>
+    </ZipProject>
+    <ZipProject Include="Web\Website.msbuildproj">
+      <OutputSubPath>1033</OutputSubPath>
+    </ZipProject>
+    <ZipProject Include="Web\Website.vstemplate">
+      <OutputSubPath>1033</OutputSubPath>
+    </ZipProject>
   </ItemGroup>
+  <ItemDefinitionGroup>
+    <ZipProject>
+      <Language>PeachPie</Language>
+    </ZipProject>
+    <ZipItem>
+      <Language>PeachPie</Language>
+    </ZipItem>
+  </ItemDefinitionGroup>
+  <!--ItemGroup>
+    <VSTemplate Include="Web\Web.vstemplate"/>
+    <None Include="Web\Website\Website.vstemplate"/>
+    <None Include="Web\Website\Website.msbuildproj" />
+    <None Include="Web\Website\index.php" />
+    <None Include="Web\Server\Server.vstemplate"/>
+    <None Include="Web\Server\Program.cs" />
+    <None Include="Web\Server\Server.csproj" />
+  </ItemGroup-->
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets" Condition="'$(VSToolsPath)' != ''" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

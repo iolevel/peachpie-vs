@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <TemplateID>PeachPie.ProjectTemplates.Web.Website</TemplateID>
+    <Name>PHP (PeachPie) class library.</Name>
+    <Icon Package="{f9b17eaf-7e54-458e-9a84-cc3f151a459d}" ID="400" />
+    <ProjectType>PeachPie</ProjectType>
+    <DefaultName>Web</DefaultName><CreateInPlace>true</CreateInPlace>
+    <Hidden>true</Hidden>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="Website.msbuildproj" TargetFileName="$ext_safeprojectname$.msbuildproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">index.php</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

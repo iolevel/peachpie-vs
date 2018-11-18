@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <TemplateID>PeachPie.ProjectTemplates.Web</TemplateID>
+    <Name>PeachPie ASP.NET Core Web App (.NET Core)</Name>
+    <Description>Creates ASP.NET Core project that runs the Web Server and PHP (PeachPie) project which scripts are served by the Web Server. Targets .NET Core.</Description>
+    <Icon Package="{f9b17eaf-7e54-458e-9a84-cc3f151a459d}" ID="400" />
+    <ProjectType>PeachPie</ProjectType>
+    <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
+    <DefaultName>Web</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <CreateInPlace>true</CreateInPlace>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectCollection>
+      <ProjectTemplateLink CopyParameters="true" ProjectName="$safeprojectname$">Website.vstemplate</ProjectTemplateLink>
+      <ProjectTemplateLink CopyParameters="true" ProjectName="Server">Server.vstemplate</ProjectTemplateLink>
+    </ProjectCollection>
+  </TemplateContent>
+</VSTemplate>
