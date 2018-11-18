@@ -1,8 +1,8 @@
 # PeachPie extension for Visual Studio
 
-This extension adds support for PHP projects running compiled on .NET/.NET Core using [PeachPie compiler](https://www.peachpie.io). The extension is designed to simplify working with PeachPie compiler in the Microsoft's Visual Studio IDE.
+This extension adds support for PHP projects running compiled on .NET/.NET Core using [PeachPie compiler](https://www.peachpie.io). The extension is designed to simplify working with PeachPie compiler in Microsoft's Visual Studio IDE.
 
->Note: this extension is a Preview, as PeachPie is still a work in progress.
+>Note: this extension is a Preview, as PeachPie is still a work in progress. Please refer to our [roadmap](https://docs.peachpie.io/roadmap) for the current status of development.
 
 ## Project Templates
 
@@ -33,4 +33,4 @@ PeachPie compiles PHP code to .NET/.NET Core and replaces its runtime with the m
 * __Build and Debug__: treat PHP code with .NET's tools and the .NET debugger
 * __Profiling and Diagnostics__: take advantage of running PHP compiled to .NET with Visual Studio's powerful performance and memory profiling tools
 
-> Note: this extension is designed for PHP projects running on .NET via PeachPie compiler.
+> Note: this extension is only designed for PHP projects running on .NET via PeachPie compiler.
