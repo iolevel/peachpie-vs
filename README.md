@@ -2,6 +2,8 @@
 
 This extension adds support for PHP projects running compiled on .NET/.NET Core using [PeachPie compiler](https://www.peachpie.io). The extension is designed to simplify working with PeachPie compiler in Microsoft's Visual Studio IDE.
 
+[PeachPie](https://www.peachpie.io) is a PHP compiler and runtime on top of .NET & .NET Core. 
+
 >Note: this extension is a Preview, as PeachPie is still a work in progress. Please refer to our [roadmap](https://docs.peachpie.io/roadmap) for the current status of development.
 
 ## Project Templates
@@ -14,13 +16,13 @@ Easily create a new **PHP (PeachPie)** project with just a few clicks and get st
 
 Integrate your PHP (PeachPie) app as a reference within your other .NET projects:
 
-![Dependencies](https://github.com/iolevel/peachpie-vs/blob/master/imgs/project-system.gif?raw=true "NuGet Packages, Project References")
+![Dependencies](https://github.com/iolevel/peachpie-vs/blob/master/imgs/project-nuget-manager.gif?raw=true "NuGet Packages, Project References")
 
 ## Make use of Diagnostic Tools
 
 Profile your PHP code for performance bottlenecks, memory leaks or CPU usage:
 
-![Diagnostic Tools](https://github.com/iolevel/peachpie-vs/blob/master/imgs/diagnostic-tools.gif?raw=true "Diagnostic Tools")
+![Diagnostic Tools](https://github.com/iolevel/peachpie-vs/blob/master/imgs/diagnostic-tools-cpu.gif?raw=true "Diagnostic Tools")
 
 ## What this allows you to do
 
