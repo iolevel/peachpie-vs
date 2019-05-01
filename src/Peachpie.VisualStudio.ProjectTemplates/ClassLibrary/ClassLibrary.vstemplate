@@ -11,6 +11,12 @@
     <DefaultName>ClassLibrary</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <CreateInPlace>true</CreateInPlace>
+
+    <LanguageTag>PHP</LanguageTag>
+    <PlatformTag>linux</PlatformTag>
+    <PlatformTag>windows</PlatformTag>
+    <PlatformTag>maxOs</PlatformTag>
+    <ProjectTypeTag>library</ProjectTypeTag>
   </TemplateData>
   <TemplateContent>
     <Project File="ClassLibrary.msbuildproj" TargetFileName="$safeprojectname$.msbuildproj" ReplaceParameters="true">

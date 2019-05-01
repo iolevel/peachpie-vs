@@ -11,6 +11,12 @@
     <DefaultName>ConsoleApp</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <CreateInPlace>true</CreateInPlace>
+
+    <LanguageTag>PHP</LanguageTag>
+    <PlatformTag>linux</PlatformTag>
+    <PlatformTag>windows</PlatformTag>
+    <PlatformTag>maxOs</PlatformTag>
+    <ProjectTypeTag>console</ProjectTypeTag>
   </TemplateData>
   <TemplateContent>
     <Project File="Console.msbuildproj" TargetFileName="$safeprojectname$.msbuildproj" ReplaceParameters="true">

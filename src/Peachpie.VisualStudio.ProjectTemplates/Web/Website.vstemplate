@@ -7,6 +7,12 @@
     <ProjectType>PeachPie</ProjectType>
     <DefaultName>Web</DefaultName><CreateInPlace>true</CreateInPlace>
     <Hidden>true</Hidden>
+
+    <LanguageTag>PHP</LanguageTag>
+    <PlatformTag>linux</PlatformTag>
+    <PlatformTag>windows</PlatformTag>
+    <PlatformTag>maxOs</PlatformTag>
+    <ProjectTypeTag>Web</ProjectTypeTag>
   </TemplateData>
   <TemplateContent>
     <Project File="Website.msbuildproj" TargetFileName="$ext_safeprojectname$.msbuildproj" ReplaceParameters="true">
