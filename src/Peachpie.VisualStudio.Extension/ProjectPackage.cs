@@ -26,7 +26,7 @@ using Task = System.Threading.Tasks.Task;
 namespace Peachpie.VisualStudio.Extension
 {
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
-    [InstalledProductRegistration("#110", "#112", "0.9.41", IconResourceID = 400)]
+    [InstalledProductRegistration("#110", "#112", "0.9.42", IconResourceID = 400)]
     [Guid(ProjectPackage.PackageGuidString)]
     [SuppressMessage("StyleCop.CSharp.DocumentationRules", "SA1650:ElementDocumentationMustBeSpelledCorrectly", Justification = "pkgdef, VS and vsixmanifest are valid VS terms")]
     public sealed class ProjectPackage : AsyncPackage
