@@ -5,11 +5,21 @@
     <Name>PeachPie ASP.NET Core Web App (.NET Core)</Name>
     <Description>Creates ASP.NET Core project that runs the Web Server and PHP (PeachPie) project which scripts are served by the Web Server. Targets .NET Core.</Description>
     <Icon Package="{f9b17eaf-7e54-458e-9a84-cc3f151a459d}" ID="400" />
-    <ProjectType>PeachPie</ProjectType>
     <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
     <DefaultName>Web</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <CreateInPlace>true</CreateInPlace>
+
+    <ProjectType>PeachPie</ProjectType>
+    <LanguageTag>PHP</LanguageTag>
+
+    <PlatformTag>windows</PlatformTag>
+    <PlatformTag>linux</PlatformTag>
+    <PlatformTag>macos</PlatformTag>
+
+    <ProjectTypeTag>web</ProjectTypeTag>
+    <ProjectTypeTag>cloud</ProjectTypeTag>
+    
   </TemplateData>
   <TemplateContent>
     <ProjectCollection>

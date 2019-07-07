@@ -5,18 +5,22 @@
     <Name>PeachPie Class Libray (.NET Standard)</Name>
     <Description>Class library project using PHP language. Targets .NET Standard.</Description>
     <Icon Package="{f9b17eaf-7e54-458e-9a84-cc3f151a459d}" ID="400" />
-    <ProjectType>PeachPie</ProjectType>
     <CreateNewFolder>true</CreateNewFolder>
     <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
     <DefaultName>ClassLibrary</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <CreateInPlace>true</CreateInPlace>
 
+    <ProjectType>PeachPie</ProjectType>
     <LanguageTag>PHP</LanguageTag>
-    <PlatformTag>linux</PlatformTag>
+
     <PlatformTag>windows</PlatformTag>
-    <PlatformTag>maxOs</PlatformTag>
+    <PlatformTag>linux</PlatformTag>
+    <PlatformTag>macos</PlatformTag>
+
     <ProjectTypeTag>library</ProjectTypeTag>
+    <ProjectTypeTag>extension</ProjectTypeTag>
+    
   </TemplateData>
   <TemplateContent>
     <Project File="ClassLibrary.msbuildproj" TargetFileName="$safeprojectname$.msbuildproj" ReplaceParameters="true">

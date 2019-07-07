@@ -4,15 +4,19 @@
     <TemplateID>PeachPie.ProjectTemplates.Web.Website</TemplateID>
     <Name>PHP (PeachPie) class library.</Name>
     <Icon Package="{f9b17eaf-7e54-458e-9a84-cc3f151a459d}" ID="400" />
-    <ProjectType>PeachPie</ProjectType>
     <DefaultName>Web</DefaultName><CreateInPlace>true</CreateInPlace>
     <Hidden>true</Hidden>
 
+    <ProjectType>PeachPie</ProjectType>
     <LanguageTag>PHP</LanguageTag>
-    <PlatformTag>linux</PlatformTag>
+
     <PlatformTag>windows</PlatformTag>
-    <PlatformTag>maxOs</PlatformTag>
-    <ProjectTypeTag>Web</ProjectTypeTag>
+    <PlatformTag>linux</PlatformTag>
+    <PlatformTag>macos</PlatformTag>
+
+    <ProjectTypeTag>web</ProjectTypeTag>
+    <ProjectTypeTag>library</ProjectTypeTag>
+    
   </TemplateData>
   <TemplateContent>
     <Project File="Website.msbuildproj" TargetFileName="$ext_safeprojectname$.msbuildproj" ReplaceParameters="true">
