@@ -5,18 +5,22 @@
     <Name>PeachPie Console App (.NET Core)</Name>
     <Description>Console App using PHP language. Targets .NET Core.</Description>
     <Icon Package="{f9b17eaf-7e54-458e-9a84-cc3f151a459d}" ID="400" />
-    <ProjectType>PeachPie</ProjectType>
     <CreateNewFolder>true</CreateNewFolder>
     <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
     <DefaultName>ConsoleApp</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <CreateInPlace>true</CreateInPlace>
 
+    <ProjectType>PeachPie</ProjectType>
     <LanguageTag>PHP</LanguageTag>
-    <PlatformTag>linux</PlatformTag>
+    
     <PlatformTag>windows</PlatformTag>
-    <PlatformTag>maxOs</PlatformTag>
+    <PlatformTag>linux</PlatformTag>
+    <PlatformTag>macos</PlatformTag>
+
     <ProjectTypeTag>console</ProjectTypeTag>
+    <ProjectTypeTag>desktop</ProjectTypeTag>
+    
   </TemplateData>
   <TemplateContent>
     <Project File="Console.msbuildproj" TargetFileName="$safeprojectname$.msbuildproj" ReplaceParameters="true">
