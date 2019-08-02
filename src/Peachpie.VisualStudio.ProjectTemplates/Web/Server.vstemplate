@@ -4,9 +4,19 @@
     <TemplateID>PeachPie.ProjectTemplates.Web.Server</TemplateID>
     <Name>Default ASP.NET Core Web Server referencing the PHP (PeachPie) library.</Name>
     <Icon Package="{f9b17eaf-7e54-458e-9a84-cc3f151a459d}" ID="400" />
-    <ProjectType>PeachPie</ProjectType>
     <CreateInPlace>true</CreateInPlace>
     <Hidden>true</Hidden>
+    
+    <ProjectType>PeachPie</ProjectType>
+    <LanguageTag>PHP</LanguageTag>
+
+    <PlatformTag>windows</PlatformTag>
+    <PlatformTag>linux</PlatformTag>
+    <PlatformTag>macos</PlatformTag>
+
+    <ProjectTypeTag>web</ProjectTypeTag>
+    <ProjectTypeTag>cloud</ProjectTypeTag>
+    
   </TemplateData>
   <TemplateContent>
     <Project File="Server.csproj" ReplaceParameters="true">
