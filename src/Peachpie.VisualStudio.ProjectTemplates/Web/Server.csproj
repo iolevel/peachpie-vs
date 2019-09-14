@@ -11,7 +11,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
-    <PackageReference Include="Peachpie.AspNetCore.Web" Version="0.9.45" />
+    <PackageReference Include="Peachpie.AspNetCore.Web" Version="0.9.46" />
   </ItemGroup>
 
   <ItemGroup>
