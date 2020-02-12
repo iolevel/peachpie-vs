@@ -17,7 +17,7 @@ using Task = System.Threading.Tasks.Task;
 [assembly: ProjectTypeRegistration(Peachpie.VisualStudio.Extension.ProjectPackage.DummyProjectGuidString,
     "PHP (PeachPie)", "Common Project System (*.msbuildproj);*.msbuildproj", "msbuildproj"
     , language: "PeachPie"
-    , Capabilities = "Managed;PHP;PeachPie;AppDesigner;OpenProjectFile;GenerateDocumentationFile"
+    , Capabilities = "Managed;PHP;PeachPie;AppDesigner;OpenProjectFile;GenerateDocumentationFile;LaunchProfiles"
     , LanguageVsTemplate = "PeachPie"
     , DisplayProjectTypeVsTemplate = "PHP (PeachPie)"
     //, PossibleProjectExtensions = "msbuildproj;phpproj;peachpieproj"
