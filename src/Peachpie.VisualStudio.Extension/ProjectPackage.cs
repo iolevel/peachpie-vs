@@ -23,10 +23,20 @@ using Task = System.Threading.Tasks.Task;
     //, PossibleProjectExtensions = "msbuildproj;phpproj;peachpieproj"
     )]
 
+/// <summary>
+/// Version information.
+/// </summary>
+static class ProductVersion
+{
+    public const string VersionString = "0.9.800";
+    public const string AssemblyVersion = VersionString;
+    public const string FileVersion = VersionString;
+}
+
 namespace Peachpie.VisualStudio.Extension
 {
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
-    [InstalledProductRegistration("#110", "#112", "0.9.600", IconResourceID = 400)]
+    [InstalledProductRegistration("#110", "#112", ProductVersion.VersionString, IconResourceID = 400)]
     [Guid(ProjectPackage.PackageGuidString)]
     [SuppressMessage("StyleCop.CSharp.DocumentationRules", "SA1650:ElementDocumentationMustBeSpelledCorrectly", Justification = "pkgdef, VS and vsixmanifest are valid VS terms")]
     public sealed class ProjectPackage : AsyncPackage
