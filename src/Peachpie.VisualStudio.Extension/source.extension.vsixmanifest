@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
-    <Metadata>
-        <Identity Id="iolevel.peachpie-vs" Version="0.9.800" Language="en-US" Publisher="iolevel" />
-        <DisplayName>PeachPie Visual Studio Extension</DisplayName>
-        <Description xml:space="preserve">PeachPie is the PHP language compiler for .NET and .NET Core. It allows for building, integrating, running and debugging of legacy PHP code base to .NET platform. PeachPie outputs regular .NET assemblies not relying on the native PHP runtime.
+  <Metadata>
+    <Identity Id="iolevel.peachpie-vs" Version="0.9.800" Language="en-US" Publisher="iolevel" />
+    <DisplayName>PeachPie Visual Studio Extension</DisplayName>
+    <Description xml:space="preserve">PeachPie is the PHP language compiler for .NET and .NET Core. It allows for building, integrating, running and debugging of legacy PHP code base to .NET platform. PeachPie outputs regular .NET assemblies not relying on the native PHP runtime.
 
 This extension provides project templates and other development tools for the PeachPie platform.</Description>
-        <Icon>Resources\ProjectIcon.ico</Icon>
-    </Metadata>
-    <Installation>
-        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0, 17.0)" />
-    </Installation>
-    <Dependencies>
-        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
-    </Dependencies>
-    <Assets>
-        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
-        <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="Peachpie.VisualStudio.ItemTemplates" TargetVersion="[15.0,]" d:TargetPath="|Peachpie.VisualStudio.ItemTemplates;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
-        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="Peachpie.VisualStudio.ProjectTemplates" TargetVersion="[15.0,]" d:TargetPath="|Peachpie.VisualStudio.ProjectTemplates;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
-        <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="Peachpie.VisualStudio.ProjectTemplates" Path="|Peachpie.VisualStudio.ProjectTemplates|" />
-    </Assets>
-    <Prerequisites>
-        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,17.0)" DisplayName="Visual Studio core editor" />
-    </Prerequisites>
+    <Icon>Resources\ProjectIcon.ico</Icon>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0, 17.0)" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+    <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="Peachpie.VisualStudio.ItemTemplates" TargetVersion="[15.0,]" d:TargetPath="|Peachpie.VisualStudio.ItemTemplates;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="Peachpie.VisualStudio.ProjectTemplates" TargetVersion="[15.0,]" d:TargetPath="|Peachpie.VisualStudio.ProjectTemplates;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+    <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" />
+  </Assets>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,17.0)" DisplayName="Visual Studio core editor" />
+  </Prerequisites>
 </PackageManifest>
