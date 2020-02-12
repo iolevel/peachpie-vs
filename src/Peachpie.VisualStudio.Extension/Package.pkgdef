@@ -1,0 +1,6 @@
+﻿
+; This key registers the language with the debugger.
+; The Language string is used in the debugger UI to refer to the language (Call Stack window, for example)
+[$RootKey$\AD7Metrics\ExpressionEvaluator\{3D70E75B-578F-4DC3-9902-695135E893A5}\{994b45c4-e6e9-11d2-903f-00c04fa302a1}]
+"Name"="PeachPie"
+"Language"="PHP"
