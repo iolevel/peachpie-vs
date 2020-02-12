@@ -3,7 +3,7 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
-using Peachpie.AspNetCore.Web;
+using Microsoft.Extensions.Hosting;
 
 namespace $ext_safeprojectname$.Server
 {
@@ -33,7 +33,7 @@ namespace $ext_safeprojectname$.Server
             });
         }
 
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {
