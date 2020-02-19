@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImageManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/VisualStudio/ImageManifestSchema/2014">
+  
+  <Symbols>
+    
+    <String Name="AssemblyName" Value="Peachpie.VisualStudio.Extension" />
+    
+    <Guid Name="ImageCatalogGuid" Value="8A165441-14AC-4BB8-82C6-BA62A95E99C5" />
+    
+    <ID Name="ProjectIcon" Value="0" />
+    <ID Name="ScriptIcon" Value="1" />
+    
+  </Symbols>
+  
+  <Images>
+    
+    <Image Guid="$(ImageCatalogGuid)" ID="$(ProjectIcon)" AllowColorInversion="false">
+      <Source Uri="/$(AssemblyName);Component/Resources/ProjectIcon.png" />
+    </Image>
+
+    <!--Image Guid="$(ImageCatalogGuid)" ID="$(ScriptIcon)">
+      <Source Uri="$(Resources)/Resources/ScriptFile.png" />
+    </Image-->
+
+  </Images>
+  
+  <ImageLists />
+  
+</ImageManifest>

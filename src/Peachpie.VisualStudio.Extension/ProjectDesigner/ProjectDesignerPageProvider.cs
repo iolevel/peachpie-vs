@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace Peachpie.VisualStudio.Extension.ProjectDesigner
 {
     [Export(typeof(IVsProjectDesignerPageProvider))]
-    [AppliesTo("PeachPie & AppDesigner")]
+    [AppliesTo(KnownProjectCapabilities.PeachPieCapability + "&" + KnownProjectCapabilities.AppDesignerCapability)]
     class ProjectDesignerPageProvider : IVsProjectDesignerPageProvider
     {
         readonly UnconfiguredProject _project;
@@ -30,11 +30,11 @@ namespace Peachpie.VisualStudio.Extension.ProjectDesigner
             // result.Add(Application); // only works for CSharp
             result.Add(Build);
             result.Add(BuildEvents);
-            if (Capabilities.Contains("Pack"))
+            if (Capabilities.HasPack())
             {
                 result.Add(Package);
             }
-            if (Capabilities.Contains("LaunchProfiles"))
+            if (Capabilities.HasLaunchProfiles())
             {
                 result.Add(Debug);
             }

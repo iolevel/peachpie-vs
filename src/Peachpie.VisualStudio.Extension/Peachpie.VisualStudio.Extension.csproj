@@ -52,12 +52,19 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ImageCatalog.cs" />
+    <Compile Include="KnownProjectCapabilities.cs" />
     <Compile Include="ProjectDesigner\ProjectDesignerPageMetadata.cs" />
     <Compile Include="ProjectDesigner\ProjectDesignerPageProvider.cs" />
     <Compile Include="ProjectPackage.cs" />
+    <Compile Include="ProjectTree\IconsProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ImageCatalog.imagemanifest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <None Include="Key.snk" />
     <None Include="Resources\ProjectIcon.psd" />
     <None Include="source.extension.vsixmanifest">
@@ -139,7 +146,7 @@
     <Content Include="Resources\ProjectIcon.ico">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Resources\ProjectIcon.png" />
+    <Resource Include="Resources\ProjectIcon.png" />
     <Content Include="Package.pkgdef">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
