@@ -28,7 +28,7 @@ namespace Peachpie.VisualStudio.Extension.ProjectDesigner
             var result = new List<IPageMetadata>(8);
 
             // result.Add(Application); // only works for CSharp
-            result.Add(Build);
+            // result.Add(Build); // has a lot of not-quite-yet-supported properties
             result.Add(BuildEvents);
             if (Capabilities.HasPack())
             {
