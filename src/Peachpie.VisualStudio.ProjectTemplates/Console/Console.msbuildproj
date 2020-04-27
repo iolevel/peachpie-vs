@@ -1,8 +1,8 @@
-<Project Sdk="Peachpie.NET.Sdk/0.9.900">
+<Project Sdk="Peachpie.NET.Sdk/0.9.970">
   
   <PropertyGroup>
     <OutputType>exe</OutputType>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <StartupObject>program.php</StartupObject>
   </PropertyGroup>
 
