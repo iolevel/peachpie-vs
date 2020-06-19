@@ -31,6 +31,11 @@ namespace $ext_safeprojectname$.Server
                 options.IdleTimeout = TimeSpan.FromMinutes(30);
                 options.Cookie.HttpOnly = true;
             });
+
+            services.AddPhp(options =>
+            {
+                
+            });
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -42,7 +47,7 @@ namespace $ext_safeprojectname$.Server
 
             app.UseSession();
 
-            app.UsePhp(new PhpRequestOptions(scriptAssemblyName: "$ext_safeprojectname$"));
+            app.UsePhp();
             app.UseDefaultFiles();
             app.UseStaticFiles();
         }
