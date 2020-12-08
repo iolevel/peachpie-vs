@@ -28,7 +28,7 @@ using Task = System.Threading.Tasks.Task;
 /// </summary>
 static class ProductVersion
 {
-    public const string VersionString = "1.0.0";    // matches source.extension.vsixmanifest
+    public const string VersionString = "1.0.4";    // matches source.extension.vsixmanifest
     public const string AssemblyVersion = VersionString;
     public const string FileVersion = VersionString;
 }
@@ -75,6 +75,8 @@ namespace Peachpie.VisualStudio.Extension
             // When initialized asynchronously, the current thread may be a background thread at this point.
             // Do any initialization that requires the UI thread after switching to the UI thread.
             await this.JoinableTaskFactory.SwitchToMainThreadAsync(cancellationToken);
+
+            await base.InitializeAsync(cancellationToken, progress);
         }
 
         #endregion
