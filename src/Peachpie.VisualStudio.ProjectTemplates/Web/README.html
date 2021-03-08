@@ -25,7 +25,7 @@
                 <li><b>$safeprojectname$.Server</b>; implements the default Web Server. It is a startup project which handles web requests and serves the compiled PHP scripts, static files, Razor views and other ASP.NET Core end-points.</li>
             </ul>
         </p>
-        <h3>PHP Source Files</h3>
+        <h3>Source Files (*.php)</h3>
         <p>
             PHP source files are placed within the <span>$safeprojectname$</span> project. Upon building the project, the compiler parses the files, provides additional diagnostics, and outputs a single binary .dll file.
         </p>
@@ -34,11 +34,18 @@
         <p>
             Unlike in regular PHP application, compile and content files are treated separately here. Content files are not compiled and they will only be served by the web server as a static file.
         </p>
+<pre>
+- $safeprojectname$
+- $safeprojectname$.Server
+  - wwwroot
+    - css
+    - images
+    - js
+</pre>
         <p>
             Place your content files (images and stylesheets, and other non-compile items) into the <code>/wwwroot/</code> folder within the <span>$safeprojectname$.Server</span> project.
         </p>
-        <hr/>
-        
+        <hr/>        
     </div>
 </body>
 </html>
