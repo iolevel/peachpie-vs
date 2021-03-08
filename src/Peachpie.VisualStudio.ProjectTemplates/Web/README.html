@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>Getting Started</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #333;
+        }
+
+        li {
+            margin: 16px;
+        }
+    </style>
+
+</head>
+<body style="margin:0 auto;">
+    <div style="width:640px;margin:32px;">
+        <h2>Getting Started</h2>
+        <p>You've just created a basic ASP.NET Core application which in addition serves compiled PHP scripts.</p>
+        <hr />
+        <p>
+            The solution consists of two separate projects:
+            <ul>
+                <li><b>$safeprojectname$</b>; is the PHP project. Its PHP script files (*.php) get compiled and served by the web server.</li>
+                <li><b>$safeprojectname$.Server</b>; implements the default Web Server. It is a startup project which handles web requests and serves the compiled PHP scripts, static files, Razor views and other ASP.NET Core end-points.</li>
+            </ul>
+        </p>
+        <h3>PHP Source Files</h3>
+        <p>
+            PHP source files are placed within the <span>$safeprojectname$</span> project. Upon building the project, the compiler parses the files, provides additional diagnostics, and outputs a single binary .dll file.
+        </p>
+
+        <h3>Content Files</h3>
+        <p>
+            Unlike in regular PHP application, compile and content files are treated separately here. Content files are not compiled and they will only be served by the web server as a static file.
+        </p>
+        <p>
+            Place your content files (images and stylesheets, and other non-compile items) into the <code>/wwwroot/</code> folder within the <span>$safeprojectname$.Server</span> project.
+        </p>
+        <hr/>
+        
+    </div>
+</body>
+</html>

@@ -61,6 +61,9 @@
     <ZipProject Include="Web\index.php">
       <OutputSubPath>1033</OutputSubPath>
     </ZipProject>
+    <ZipProject Include="Web\README.html">
+      <OutputSubPath>1033</OutputSubPath>
+    </ZipProject>
     <ZipProject Include="Web\Program.cs">
       <OutputSubPath>1033</OutputSubPath>
     </ZipProject>

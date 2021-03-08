@@ -21,6 +21,7 @@
   <TemplateContent>
     <Project File="Website.msbuildproj" TargetFileName="$ext_safeprojectname$.msbuildproj" ReplaceParameters="true">
       <ProjectItem ReplaceParameters="true" OpenInEditor="true">index.php</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInWebBrowser="true">README.html</ProjectItem>
     </Project>
   </TemplateContent>
 </VSTemplate>
