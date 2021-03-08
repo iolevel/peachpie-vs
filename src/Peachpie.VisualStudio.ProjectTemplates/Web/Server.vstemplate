@@ -19,7 +19,7 @@
     
   </TemplateData>
   <TemplateContent>
-    <Project File="Server.csproj" ReplaceParameters="true">
+    <Project File="Server.csproj" TargetFileName="$ext_safeprojectname$.Server.csproj" ReplaceParameters="true">
       <ProjectItem ReplaceParameters="true">Program.cs</ProjectItem>
       <Folder Name="wwwroot" TargetFolderName="wwwroot"></Folder>
     </Project>
