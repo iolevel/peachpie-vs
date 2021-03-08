@@ -3,18 +3,10 @@
   <PropertyGroup>
     <OutputType>Library</OutputType>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <EnableDefaultNoneItems>false</EnableDefaultNoneItems>
-    <EnableDefaultCompileItems>true</EnableDefaultCompileItems>
   </PropertyGroup>
 
   <ItemGroup>
-    <!-- copy and pack non-compile items into the project output -->
-    <Content Include="**" Exclude="**/*.php;$(DefaultItemExcludes);@(Compile);$(MsBuildThisFile);">
-      <PackagePath>contentFiles/any/netcoreapp3.0/</PackagePath>
-      <PackageCopyToOutput>true</PackageCopyToOutput>
-      <CopyToPublishDirectory>true</CopyToPublishDirectory>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    <Compile Include="**/*.php;**/*.phar;" Exclude="$(DefaultExcludeItems)" />
   </ItemGroup>
 
 </Project>
