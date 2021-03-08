@@ -1,4 +1,4 @@
-<Project Sdk="Peachpie.NET.Sdk/1.0.0-preview5">
+<Project Sdk="Peachpie.NET.Sdk/1.0.0">
 
   <PropertyGroup>
     <OutputType>Library</OutputType>
@@ -12,7 +12,7 @@
 
   <ItemGroup>
     <Content Include="**" Exclude="obj/**;bin/**;PublishProfiles/**;@(Compile);$(MsBuildThisFile)">
-      <PackagePath>contentFiles/any/netcoreapp3.0/wwwroot/</PackagePath>
+      <PackagePath>contentFiles/any/net5.0/wwwroot/</PackagePath>
       <PackageCopyToOutput>true</PackageCopyToOutput>
       <CopyToOutputDirectory>true</CopyToOutputDirectory>
       <CopyToPublishDirectory>true</CopyToPublishDirectory>

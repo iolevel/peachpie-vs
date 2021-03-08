@@ -28,7 +28,7 @@ using Task = System.Threading.Tasks.Task;
 /// </summary>
 static class ProductVersion
 {
-    public const string VersionString = "1.0.5";    // matches source.extension.vsixmanifest
+    public const string VersionString = "1.0.6";    // matches source.extension.vsixmanifest
     public const string AssemblyVersion = VersionString;
     public const string FileVersion = VersionString;
 }

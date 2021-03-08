@@ -20,7 +20,7 @@
   </TemplateData>
   <TemplateContent>
     <Project File="Server.csproj" ReplaceParameters="true">
-      <ProjectItem ReplaceParameters="true">program.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true">Program.cs</ProjectItem>
       <Folder Name="wwwroot" TargetFolderName="wwwroot"></Folder>
     </Project>
   </TemplateContent>

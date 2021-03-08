@@ -1,10 +1,9 @@
-<Project Sdk="Peachpie.NET.Sdk/1.0.0-preview5">
+<Project Sdk="Peachpie.NET.Sdk/1.0.0">
   
   <PropertyGroup>
     <OutputType>exe</OutputType>
-    <TargetFramework>net50</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <StartupObject>program.php</StartupObject>
-    <ProduceReferenceAssembly>false</ProduceReferenceAssembly>
   </PropertyGroup>
 
   <ItemGroup>
