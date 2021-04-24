@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="iolevel.peachpie-vs" Version="1.0.6" Language="en-US" Publisher="iolevel" />
+    <Identity Id="iolevel.peachpie-vs" Version="1.0.7" Language="en-US" Publisher="iolevel" />
     <DisplayName>PeachPie Visual Studio Extension</DisplayName>
     <Description xml:space="preserve">PeachPie is the PHP language compiler for .NET and .NET Core. It allows for building, integrating, running and debugging of legacy PHP code base to .NET platform. PeachPie outputs regular .NET assemblies not relying on the native PHP runtime.
 

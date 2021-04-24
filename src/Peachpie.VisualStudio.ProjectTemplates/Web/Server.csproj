@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Peachpie.AspNetCore.Web" Version="1.0.0" />
+    <PackageReference Include="Peachpie.AspNetCore.Web" Version="1.0.5" />
   </ItemGroup>
 
   <ItemGroup>
