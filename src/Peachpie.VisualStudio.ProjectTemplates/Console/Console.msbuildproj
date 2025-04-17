@@ -1,13 +1,13 @@
-<Project Sdk="Peachpie.NET.Sdk/1.0.9">
+<Project Sdk="Peachpie.NET.Sdk/1.1.11">
   
   <PropertyGroup>
     <OutputType>exe</OutputType>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <StartupObject>program.php</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="**/*.php" />
+    <Compile Include="**/*.php;**/*.phar" />
   </ItemGroup>
 
 </Project>

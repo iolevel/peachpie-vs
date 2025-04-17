@@ -1,12 +1,12 @@
-<Project Sdk="Peachpie.NET.Sdk/1.0.9">
+<Project Sdk="Peachpie.NET.Sdk/1.1.11">
   
   <PropertyGroup>
     <OutputType>library</OutputType>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="**/*.php" />
+    <Compile Include="**/*.php;**/*.phar" />
   </ItemGroup>
 
 </Project>
